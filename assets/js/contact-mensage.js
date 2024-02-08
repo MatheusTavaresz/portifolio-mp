@@ -6,7 +6,7 @@ document.getElementById('enviarBtn').addEventListener('click', function() {
     var encodedMessage = encodeURIComponent(message);
 
     // Montar o link do WhatsApp com o texto da mensagem
-    var link = "https://api.whatsapp.com/send?phone=5563992626906&text=" + encodedMessage;
+    var link = "https://api.whatsapp.com/send?phone=5548988399953&text=" + encodedMessage;
 
     // Redirecionar para o link do WhatsApp
     window.open(link, '_blank');
