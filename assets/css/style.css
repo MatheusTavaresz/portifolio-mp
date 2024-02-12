@@ -94,6 +94,19 @@ h6 {
   }
 }
 
+.skill-img {
+  width: 70px;
+  cursor: pointer;
+  gap: 12px;
+  transition: filter 0.3s ease;
+  filter: saturate(30%);
+  margin: 15px;
+}
+
+.skill-img:hover {
+  filter: saturate(200%);
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
